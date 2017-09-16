@@ -59,7 +59,7 @@ allActivity <- allActivity[, Keepcol]
 ##############################################################################
 
 # replace activity values with named factor levels
-allActivity$activity <- factor(allctivity$activity, 
+allActivity$activity <- factor(allActivity$activity, 
                                  levels = activities[, 1], labels = activities[, 2])
 
 ##############################################################################

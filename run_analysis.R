@@ -62,7 +62,6 @@ allActivity <- allActivity[, Keepcol]
 allActivity$activity <- factor(allctivity$activity, 
                                  levels = activities[, 1], labels = activities[, 2])
 
-
 ##############################################################################
 #      Appropriately label the data set with descriptive variable names      #
 ##############################################################################
